@@ -21,7 +21,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  base: import.meta.env.BASE_URL,
 })
 
 export default router
